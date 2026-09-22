@@ -22,7 +22,9 @@ setup(
         'console_scripts': [
            'gamepad = rover_commands.gamepad:main',
            'subscriber = rover_commands.subscriber:main',
-           
+           'sensor = rover_commands.sensor:main',
+           'gps = rover_commands.gps:main',
+            'process = rover_commands.process:main'
         ],
     },
 )
