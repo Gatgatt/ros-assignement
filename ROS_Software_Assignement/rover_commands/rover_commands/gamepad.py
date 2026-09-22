@@ -30,9 +30,9 @@ class GamepadNode(Node):
             elif c == 'd':
                 twist.linear.z = 1.0
             elif c == 't':
-                twist.angular.y = 1.0
+                twist.angular.y = 90.0
             elif c == 'y':
-                twist.angular.y = -1.0
+                twist.angular.y = -90.0
 
         # Log the message 
         tx = twist.linear.x
